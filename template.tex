@@ -349,17 +349,51 @@ $endif$
 
 \begin{document}
 $if(title)$
-$if(beamer)$
-\frame{\titlepage}
-$else$
-\maketitle
+\begin{titlepage}
+  \begin{center}
+    \vspace*{1cm}
+
+    $if(supertitle)$
+    \Huge
+    \textbf{$supertitle$}
+    \vspace{0.5cm}
+    $endif$
+
+    \LARGE
+    $title$
+    \vspace{1.5cm}
+
+    \includegraphics[width=0.3\columnwidth]{logo.png}
+    \vspace{1cm}
+
+    \large
+    $if(author)$
+    $for(author)$
+    $author$ \\[0.2cm]
+    $endfor$
+    $endif$
+
+    \vfill
+
+    Fakultas Ekonomi dan Bisnis\\
+    Universitas Indonesia\\
+    Depok, tanggal \the\year
+  \end{center}
+\end{titlepage}
 $endif$
-$if(abstract)$
-\begin{abstract}
-$abstract$
-\end{abstract}
-$endif$
-$endif$
+
+%$if(title)$
+%$if(beamer)$
+%\frame{\titlepage}
+%$else$
+%\maketitle
+%$endif$
+%$if(abstract)$
+%\begin{abstract}
+%$abstract$
+%\end{abstract}
+%$endif$
+%$endif$
 
 \pagenumbering{roman}
 $for(include-before)$
