@@ -1,72 +1,3 @@
----
-title: Regresi Linier Suku Bunga terhadap Inflasi Menggunakan Metode Regresi Linier
-supertitle: Makalah Pengantar Ekonometrika
-author: 
-- John M. Doe (1506727860)
-- Jane E. Doe (1506727860)
-- John M. B. Doe (1506727860)
-- Jane E. V. K. Doe (1506727860)
-date: 14 April 2018
-university: Universitas Indonesia
-faculty: Fakultas Ekonomi dan Bisnis
-city: Depok
-subject: Pengantar Ekonometrika
-lecturer:
-- John von Neumann
-- Alan Turing
-- J. Robert Oppenheimer
-logo: logo.png
-graphics: true
-toc: true
-chapter: true
-lang: id
-papersize: a4
-margin-top: 30mm
-margin-bottom: 30mm
-margin-right: 30mm
-margin-left: 30mm
-indent: 5mm
-soa: true
-pengantar: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et orci velit.
-  Phasellus sed mauris at ante posuere rutrum. Pellentesque ac mattis sem.
-  Proin congue sem vel dolor pulvinar congue. In consequat justo ut metus
-  viverra, sit amet sodales orci consectetur. Nulla nibh tellus, gravida vitae
-  pellentesque id, lacinia vitae tellus. Pellentesque quis nibh id nunc
-  volutpat volutpat. Ut nec ornare nibh. Curabitur feugiat vestibulum leo, et
-  placerat ex rhoncus in.
-
-  Donec efficitur lobortis orci, consequat viverra augue finibus sit amet. Duis
-  elementum vestibulum dui in tempus. Cras nec maximus velit, vel pellentesque
-  tellus. Aenean dignissim turpis lobortis finibus congue. Vivamus accumsan
-  tincidunt urna vel imperdiet. Maecenas vel est lacinia, accumsan arcu in,
-  lacinia arcu. Vestibulum augue ligula, interdum semper ligula ut, ultricies
-  volutpat sapien. Sed semper enim turpis, sed laoreet nulla viverra ac.
-  Curabitur ut hendrerit dui, et rutrum lectus. Nulla tincidunt augue vitae
-  feugiat iaculis. Vivamus vel vulputate erat. Donec vel massa quis libero
-  interdum volutpat. Vivamus eu dolor enim. Ut rutrum ornare pulvinar.
-
-  Quisque vel metus dignissim, tempus nulla vitae, dictum diam. Nam dui tortor,
-  pretium non mi id, ultrices faucibus turpis. In elit arcu, tincidunt sit amet
-  nisi ut, lacinia sodales dolor. Ut venenatis vulputate mi sed tempus. Etiam
-  rhoncus iaculis tellus, sed volutpat diam semper quis. Proin tellus ante,
-  accumsan a maximus sit amet, cursus ornare dolor. Vivamus venenatis sit amet
-  elit vehicula vestibulum. Sed ultrices dui non risus gravida, nec viverra
-  elit iaculis.
-
-  Quisque tincidunt, ex auctor semper vestibulum, sem orci condimentum ex,
-  vitae porta tellus libero quis orci. Pellentesque eu nunc ante. Morbi eu diam
-  pellentesque, commodo ante in, pellentesque velit. Etiam porttitor lacus ac
-  ante fringilla egestas. Aenean vitae augue vel lorem tempor euismod a
-  tincidunt nisi. Nulla suscipit lorem posuere velit cursus egestas. Aenean at
-  ultricies mauris, vel venenatis elit. Aenean imperdiet purus consequat
-  imperdiet ornare. Proin id sollicitudin orci, in dignissim nibh. Ut gravida
-  mattis vestibulum. Ut et ante erat. Nulla sit amet neque aliquam, laoreet
-  massa sed, suscipit nunc. Quisque aliquam nulla aliquam efficitur
-  condimentum. Nulla sit amet risus id mauris gravida mollis. Mauris ultricies
-  mattis purus, at aliquam augue rutrum in.
-...
-
 # Pendahuluan
 
 $\pagenumbering{arabic}$
@@ -159,22 +90,6 @@ ullamcorper purus porttitor, a pretium ante pellentesque. Nam ut odio euismod,
 ullamcorper massa eget, tristique enim. Morbi sit amet sagittis magna. In vel
 ex non arcu auctor pulvinar. Aliquam erat volutpat. Morbi fermentum tortor id
 dignissim pulvinar.
-
-# Analisis
-
-## Hasil Penelitian
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-
-## Hasil Regresi
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
 
 # Kesimpulan
 
