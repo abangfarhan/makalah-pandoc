@@ -361,6 +361,7 @@ $abstract$
 $endif$
 $endif$
 
+\pagenumbering{roman}
 $for(include-before)$
 $include-before$
 
@@ -393,6 +394,8 @@ $endif$
 $if(lof)$
 \listoffigures
 $endif$
+
+\pagenumbering{arabic}
 $body$
 
 $if(natbib)$

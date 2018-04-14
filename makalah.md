@@ -53,6 +53,8 @@ pengantar: |
 
 # Pendahuluan
 
+$\pagenumbering{arabic}$
+
 ## Latar Belakang
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
