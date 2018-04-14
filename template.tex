@@ -353,9 +353,9 @@ $if(title)$
   \begin{center}
     \vspace*{1cm}
 
-    $if(supertitle)$
+    $if(subject)$
     \Huge
-    \textbf{$supertitle$}
+    \textbf{Makalah $subject$}
     \vspace{0.5cm}
     $endif$
 
@@ -368,32 +368,27 @@ $if(title)$
 
     \large
     $if(author)$
-    $for(author)$
-    $author$ \\[0.2cm]
-    $endfor$
+      $for(author)$
+        $author$ \\[0.2cm]
+      $endfor$
     $endif$
 
     \vfill
 
-    Fakultas Ekonomi dan Bisnis\\
-    Universitas Indonesia\\
-    Depok, tanggal \the\year
+    $if(faculty)$
+      $faculty$\\
+    $endif$
+    $if(university)$
+      $university$\\
+    $endif$
+    $if(city)$
+      $city$, \the\year
+    $else$
+      \the\year
+    $endif$
   \end{center}
 \end{titlepage}
 $endif$
-
-%$if(title)$
-%$if(beamer)$
-%\frame{\titlepage}
-%$else$
-%\maketitle
-%$endif$
-%$if(abstract)$
-%\begin{abstract}
-%$abstract$
-%\end{abstract}
-%$endif$
-%$endif$
 
 \pagenumbering{roman}
 $for(include-before)$
@@ -401,10 +396,51 @@ $include-before$
 
 $endfor$
 
+$if(soa)$
+\chapter*{Pernyataan Keaslian}
+\addcontentsline{toc}{chapter}{Pernyataan Keaslian}
+Saya yang bertanda tangan di bawah ini menyatakan bahwa makalah terlampir adalah
+murni hasil pekerjaan saya sendiri. Tidak ada pekerjaan orang lain yang saya
+gunakan tanpa menyebutkan sumbernya.
+
+Meteri ini belum pernah digunakan sebagai bahan untuk makalah/tugas pada mata
+ajaran lain kecuali saya menyatakan dengan jelas bahwa saya menggunakannya.
+
+Saya memahami bahwa makalah yang saya kumpulkan ini dapat diperbanyak dan/atau
+dikomunikasikan untuk tujuan mendeteksi adanya plagiarisme.
+
+\vspace{0.5cm}
+
+\begin{tabular}{ll}
+  Mata Kuliah & : $subject$ \\
+  Judul & : $title$ \\
+  Tanggal & : $date$ \\
+\end{tabular}
+
+$endif$
+
 $if(pengantar)$
 \chapter*{Kata Pengantar}
 \addcontentsline{toc}{chapter}{Kata Pengantar}
 $pengantar$
+
+\begin{flushright}
+  $if(city)$
+    $if(date)$
+      $city$, $date$
+    $else$
+      $city$
+    $endif$
+  $else$
+    $if(date)$
+      $date$
+    $endif$
+  $endif$
+
+  \vspace{1cm}
+
+  Penyusun
+\end{flushright}
 $endif$
 
 $if(toc)$
@@ -429,7 +465,6 @@ $if(lof)$
 \listoffigures
 $endif$
 
-\pagenumbering{arabic}
 $body$
 
 $if(natbib)$
