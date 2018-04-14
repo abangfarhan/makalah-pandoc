@@ -413,12 +413,26 @@ dikomunikasikan untuk tujuan mendeteksi adanya plagiarisme.
 
 \vspace{0.5cm}
 
+% TODO conditionals for each variable, maybe
 \begin{tabularx}{0.8\textwidth}{llX}
   Mata Kuliah & : & $subject$ \\
   Judul       & : & $title$ \\
   Tanggal     & : & $date$ \\
   Dosen       & : & $for(lecturer)$$lecturer$ \newline $endfor$
 \end{tabularx}
+
+$if(author)$
+\begin{flushleft}
+$for(author)$
+\begin{tabular}{c}
+  \\[2cm]
+  \hline
+  $author$
+\end{tabular}
+\hspace{0.5cm}
+$endfor$
+\end{flushleft}
+$endif$
 
 $endif$
 
