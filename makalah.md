@@ -1,7 +1,20 @@
 ---
-title: Regresi Linier Suku Bunga terhadap Inflasi
-author: [John M. Doe, Jane E. Doe]
-date: 2018-04-18
+title: Regresi Linier Suku Bunga terhadap Inflasi Menggunakan Metode Regresi Linier
+supertitle: Makalah Pengantar Ekonometrika
+author: 
+- John M. Doe (1506727860)
+- Jane E. Doe (1506727860)
+date: 14 April 2018
+university: Universitas Indonesia
+faculty: Fakultas Ekonomi dan Bisnis
+city: Depok
+subject: Pengantar Ekonometrika
+lecturer:
+- John von Neumann
+- Alan Turing
+- J. Robert Oppenheimer
+logo: logo.png
+graphics: true
 toc: true
 chapter: true
 lang: id
@@ -11,6 +24,7 @@ margin-bottom: 30mm
 margin-right: 30mm
 margin-left: 30mm
 indent: 5mm
+soa: true
 pengantar: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et orci velit.
   Phasellus sed mauris at ante posuere rutrum. Pellentesque ac mattis sem.
@@ -54,6 +68,7 @@ pengantar: |
 # Pendahuluan
 
 $\pagenumbering{arabic}$
+<!-- very important so the page numbering is using arabic numerals -->
 
 ## Latar Belakang
 
@@ -118,13 +133,11 @@ fringilla porttitor metus id varius. Mauris posuere felis justo, ac imperdiet
 elit semper quis. Maecenas arcu ligula, tempus eu tempus eu, hendrerit et nibh.
 Phasellus finibus elit sed lacus elementum, at cursus enim congue.
 
-$$
-\begin{aligned}
+\begin{align}
 e &= \frac{1}{0!} + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + ... \\
 e &= \sum _ {k=0}^\infty \frac{1}{k!} \\
 e &= 2.718...
-\end{aligned}
-$$
+\end{align}
 
 ## Suku Bunga
 

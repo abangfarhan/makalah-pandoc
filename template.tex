@@ -21,6 +21,8 @@ $else$
 \usepackage{lmodern}
 $endif$
 
+\usepackage{tabularx}
+
 \renewcommand{\thechapter}{\Roman{chapter}}
 \renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
 \renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
@@ -411,11 +413,12 @@ dikomunikasikan untuk tujuan mendeteksi adanya plagiarisme.
 
 \vspace{0.5cm}
 
-\begin{tabular}{ll}
-  Mata Kuliah & : $subject$ \\
-  Judul & : $title$ \\
-  Tanggal & : $date$ \\
-\end{tabular}
+\begin{tabularx}{0.8\textwidth}{llX}
+  Mata Kuliah & : & $subject$ \\
+  Judul       & : & $title$ \\
+  Tanggal     & : & $date$ \\
+  Dosen       & : & $for(lecturer)$$lecturer$ \newline $endfor$
+\end{tabularx}
 
 $endif$
 
