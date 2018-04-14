@@ -365,6 +365,13 @@ $for(include-before)$
 $include-before$
 
 $endfor$
+
+$if(pengantar)$
+\chapter*{Kata Pengantar}
+\addcontentsline{toc}{chapter}{Kata Pengantar}
+$pengantar$
+$endif$
+
 $if(toc)$
 $if(beamer)$
 \begin{frame}
