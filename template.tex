@@ -20,6 +20,20 @@ $if(fontfamily)$
 $else$
 \usepackage{lmodern}
 $endif$
+
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+\renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\bfseries\LARGE\centering} % format
+  {\chaptername\ \thechapter} % label
+  {0pt}{}
+\titleformat*{\section}{\large\bfseries}
+
 $if(linestretch)$
 \usepackage{setspace}
 \setstretch{$linestretch$}
