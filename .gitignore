@@ -5,3 +5,6 @@
 !.gitignore
 !metadata.yaml
 !logo.png
+!Makefile.cmd
+!README.md
+!LICENSE.txt

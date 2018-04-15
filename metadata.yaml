@@ -16,7 +16,7 @@ lecturer:
 - Alan Turing
 - J. Robert Oppenheimer
 logo: logo.png
-graphics: true
+graphics: true # without this, the logo won't be displayed
 toc: true
 chapter: true
 lang: id
