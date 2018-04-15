@@ -1,11 +1,11 @@
 ---
-title: Regresi Linier Suku Bunga terhadap Inflasi Menggunakan Metode Regresi Linier
+title: Mengukur Pengaruh Suku Bunga terhadap Tingkat Inflasi Menggunakan Metode Regresi Linier
 supertitle: Makalah Pengantar Ekonometrika
 author: 
-- John M. Doe (1506727860)
-- Jane E. Doe (1506727860)
-- John M. B. Doe (1506727860)
-- Jane E. V. K. Doe (1506727860)
+- John M. Doe (1506727123)
+- Jane E. Doe (1506727321)
+- John M. B. Doe (1506727234)
+- Jane E. V. K. Doe (1506727567)
 date: 14 April 2018
 university: Universitas Indonesia
 faculty: Fakultas Ekonomi dan Bisnis
@@ -26,6 +26,7 @@ margin-bottom: 30mm
 margin-right: 30mm
 margin-left: 30mm
 indent: 5mm
+numbersections: true
 soa: true
 pengantar: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et orci velit.
@@ -53,16 +54,4 @@ pengantar: |
   accumsan a maximus sit amet, cursus ornare dolor. Vivamus venenatis sit amet
   elit vehicula vestibulum. Sed ultrices dui non risus gravida, nec viverra
   elit iaculis.
-
-  Quisque tincidunt, ex auctor semper vestibulum, sem orci condimentum ex,
-  vitae porta tellus libero quis orci. Pellentesque eu nunc ante. Morbi eu diam
-  pellentesque, commodo ante in, pellentesque velit. Etiam porttitor lacus ac
-  ante fringilla egestas. Aenean vitae augue vel lorem tempor euismod a
-  tincidunt nisi. Nulla suscipit lorem posuere velit cursus egestas. Aenean at
-  ultricies mauris, vel venenatis elit. Aenean imperdiet purus consequat
-  imperdiet ornare. Proin id sollicitudin orci, in dignissim nibh. Ut gravida
-  mattis vestibulum. Ut et ante erat. Nulla sit amet neque aliquam, laoreet
-  massa sed, suscipit nunc. Quisque aliquam nulla aliquam efficitur
-  condimentum. Nulla sit amet risus id mauris gravida mollis. Mauris ultricies
-  mattis purus, at aliquam augue rutrum in.
 ---
