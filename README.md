@@ -14,6 +14,8 @@ At the moment, the template can only be used for Indonesian language, since some
 of the words defined in the template are Indonesian (such as "Kata Pengantar",
 the whole "Pernyataan Keaslian", etc.).
 
+A preview of the pdf file can be seen at the `makalah-preview.pdf` file.
+
 # Building the File
 
 To build the pdf file, if you have a make program installed, you just need to
