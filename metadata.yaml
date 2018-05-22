@@ -27,6 +27,7 @@ margin-right: 30mm
 margin-left: 30mm
 indent: 5mm
 numbersections: true
+oneside: false
 soa: true
 pengantar: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et orci velit.
